@@ -30,6 +30,7 @@ class Profile(models.Model):
     def __str__(self):
         return self.user.email + ' Profile'
 
+<<<<<<< HEAD
 # @receiver(post_save, sender=CustomUser)
 # def create_profile(sender, instance, created, **kwargs):
 #     if created:
@@ -41,6 +42,8 @@ class Profile(models.Model):
 #         instance.profile.save()
 
 
+=======
+>>>>>>> 607ea1954a9cc2a0efad144dc52d5cd6a8bd1efe
 
     
     
